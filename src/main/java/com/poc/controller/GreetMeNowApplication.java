@@ -7,6 +7,6 @@ public class GreetMeNowApplication {
 
     @GetMapping("/greet")
     public String sayHello(){
-        return "Hello Dear :) How are you ?";
+        return "Hello Dear! How are you ?";
     }
 }
